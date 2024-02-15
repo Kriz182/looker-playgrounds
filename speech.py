@@ -13,7 +13,7 @@ import json
 client = speech.SpeechClient()
 
 # Look AI 
-vertexai.init(project="data-analytics-386814", location="us-central1")
+vertexai.init(project="GCP-PROJECT", location="GCP-LOCATION")
 parameters = {
     "temperature": 0.2,
     "max_output_tokens": 100,
