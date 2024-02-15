@@ -32,7 +32,8 @@ To get started with Looker Playgrounds:
 
 - Looker account and API credentials.
 - Python 3.x.
-- Access to Google Cloud Platform for voice services.
+- [Gradio](https://www.gradio.app/)
+- Access to Google Cloud Platform for voice services. [Documentation](https://cloud.google.com/speech-to-text/docs)
 - Additional libraries as specified in each experiment's setup instructions.
 
 ## Installation
