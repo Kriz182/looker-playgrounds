@@ -17,8 +17,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Looker Data
 os.environ['LOOKERSDK_BASE_URL'] = 'https://demo.looker.com'
-os.environ['LOOKERSDK_CLIENT_ID'] = 'gTJR7TPhMFtQsMFSB8ND'
-os.environ['LOOKERSDK_CLIENT_SECRET'] = 'GN8Mvgd6y3pBMY39pCbnTtZb'
+os.environ['LOOKERSDK_CLIENT_ID'] = 'CLIENT_ID'
+os.environ['LOOKERSDK_CLIENT_SECRET'] = 'CLIENT_SECRER'
 os.environ['LOOKERSDK_VERIFY_SSL']= 'False'
 os.environ['LOOKERSDK_API_VERSION']= '4.0'
 os.environ["LOOKERSDK_TIMEOUT"] = "120"
